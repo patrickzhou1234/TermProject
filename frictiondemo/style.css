@@ -1,0 +1,103 @@
+html {
+  overflow: hidden;
+  background-color: 	#0096FF;
+}
+
+#menuselections {
+  position: absolute;
+  z-index: 1000;
+  left:0px;
+  top:0px;
+  width: 100vw;
+  height: 13vh;
+  background-color: #1D2333;
+  transition: top 0.2s;
+}
+
+#menureveal {
+  position: absolute;
+  left:46vw;
+  top:13vh;
+  width: 8vw;
+  height: 6vh;
+  z-index: 100;
+  font-size: calc(1.5vw + 1.5vh);
+  background-color: rgb(52, 61, 85);
+  color: white;
+  border: none;
+  transition: color 0.2s, background-color 0.2s, top 0.2s;
+}
+
+#menureveal:hover {
+  cursor: pointer;
+  background-color: rgb(54, 66, 99);
+}
+
+#menureveal:active {
+  background-color: rgb(57, 70, 104);
+}
+
+#menureveal:focus {
+  outline: none;
+}
+
+label {
+  color: white;
+  font-size: calc(2vw + 2vh);
+}
+
+#fricdisp {
+  font-size: calc(2vw + 2vh);
+  color: white;
+}
+
+#massdisp {
+  font-size: calc(2vw + 2vh);
+  color: white;
+}
+
+#mainMesh {
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  left: 3vw;
+  top: 0vh;
+  background-color: #AAFF00;
+}
+
+#title {
+  position: relative;
+  font-size: calc(2vw + 2vh);
+  text-align: center;
+  color: orange;
+  margin-top: 20vh;
+}
+
+#restarticon {
+  width: 4vmin;
+  height: 4vmin;
+}
+
+#restartbtn {
+  top: 0px;
+  position: absolute;
+  left: 80vw;
+  font-size: calc(1.5vw + 1.5vh);
+  color: white;
+  background-color: orange;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+#restartbtn:hover {
+  background-color: #ff8c00;
+  cursor: pointer;
+}
+
+#restartbtn:active {
+  background-color: #FF5349;
+}
+
+#restartbtn:focus {
+  outline: none;
+}
