@@ -8,9 +8,16 @@
     <title>Physics Sim</title>
 </head>
 <body>
-    <span>Physics Sim</span>
-    <div id="overlay"></div>
-    <img id="mainMesh" src="https://art.pixilart.com/2a446638199567f.png">
+    <div id="menuselections">
+      <label for="gravcnst">Acceleration of Gravity</label>
+      <input name="gravcnst" onmouseup="displaygrav()" type="range" value="0.0981" min="0" max="0.2" step="0.0001" id="gravconst">
+      <span id="gravdisp">9.81</span>
+      <button onclick="restart()" id="restartbtn">Restart <img id="restarticon" src="https://rb.gy/liwf1o"></img></button>
+    </div>
+    <button onclick="menurev()" id="menureveal">⇧</button>
+    <p id="title">Gravity Simulation</p>
+    <br>
+    <div id="mainMesh">
     <script src="script.js"></script>
 </body>
 </html>
