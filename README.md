@@ -21,7 +21,7 @@ Technologies used:<br>
 
 <br><br>
 Demo Website:<br>
-<a href="https://termproject.pzrepl.repl.co"></a>
+<a href="https://termproject.pzrepl.repl.co">Term Project</a>
 <br><br>
 Table of Contents:<br>
 Gravitational attraction simulator<br>
