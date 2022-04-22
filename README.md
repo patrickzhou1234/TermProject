@@ -10,7 +10,15 @@ Images and Assets used:<br>
 <br><br>
 Formal Proposal:<br>
 <a href="https://docs.google.com/document/d/12lKEzLZoMFjt7WWVekGpWlB8mJ8_ftt_MfITrLblWQI/edit?usp=sharing">Term Project Proposal</a>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br>
+Technologies used:<br>
+<a href="https://code.visualstudio.com">Visual Studio Code</a> - for development.<br>
+<a href="https://replit.com">Replit</a> - for hosting.<br>
+<a href="https://github.com">Github</a> - for open sourcing and storing code. <br>
+<a href="https://discord.com">Discord</a> - for team communications. <br>
+<a href="https://docs.google.com">Google Docs</a> - for writing our team proposal. <br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 <ul id="termprojectdesc">1. The term project for our school <a href="https://basisindependent.com/">Basis Independent Fremont</a></ul>
