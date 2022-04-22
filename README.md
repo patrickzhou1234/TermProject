@@ -5,7 +5,7 @@ Libraries and tools used:
 We use standard web development tools for this project - HTML<a href="#htmldesc">[5]</a>, CSS<a href="#cssdesc">[6]</a>, JavaScript<a href="#JSdesc">[7]</a>. We are refraining from using any other frameworks and libraries for this project as we want to use our own knowledge of physics to complete this project.
 <br><br>
 Images and Assets used:
-<a href="https://www.freeiconspng.com/thumbs/restart-icon/black-panel-restart-system-icon--6.png">Restart System Icon from https://freeiconspng.com</a>
+<a href="https://www.freeiconspng.com/thumbs/restart-icon/black-panel-restart-system-icon--6.png">Restart System Icon</a> from https://freeiconspng.com
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
