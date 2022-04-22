@@ -24,16 +24,16 @@ Demo Website:<br>
 <a href="https://termproject.pzrepl.repl.co"></a>
 <br><br>
 Table of Contents:<br>
-Gravitational attraction simulator
-Pulley Simulator
-Friction blocks
-Collision of two cars
-Roller Coaster
-Springs
-Rocket simulator
-Bulldozer
-Airplane flight
-Optics
+Gravitational attraction simulator<br>
+Pulley Simulator<br>
+Friction blocks<br>
+Collision of two cars<br>
+Roller Coaster<br>
+Springs<br>
+Rocket simulator<br>
+Bulldozer<br>
+Airplane flight<br>
+Optics<br>
 <br><br><br><br><br><br><br><br>
 
 
