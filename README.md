@@ -1,7 +1,7 @@
 *<div align="center">For our physics enthusiasts: Physics Simulations</div>*
 <br>
 Introduction: <br>
-I exist This is our term project<a href="#termprojectdesc">[1]</a> repository. This is our open source code for our build which is hosted at <a href="https://replit.com">Replit</a><a href="#replitdesc">[2]</a>. This term project is a group effort and my group members consists of Brandon Wang, Akash Singh, Aditya Arunachalam and Patrick Zhou (myself). The purpose of our project is to combine our knowledge in both computer science and physics to turn theoretical physics<a href="#theoreticaldesc">[3]</a> to a realistic simulation<a href="#simdesc">[4]</a>. 
+This is our term project<a href="#termprojectdesc">[1]</a> repository. This is our open source code for our build which is hosted at <a href="https://replit.com">Replit</a><a href="#replitdesc">[2]</a>. This term project is a group effort and my group members consists of Brandon Wang, Akash Singh, Aditya Arunachalam and Patrick Zhou (myself). The purpose of our project is to combine our knowledge in both computer science and physics to turn theoretical physics<a href="#theoreticaldesc">[3]</a> to a realistic simulation<a href="#simdesc">[4]</a>. 
 <br><br>
 Libraries and tools used:<br>
 We use standard web development tools for this project - HTML<a href="#htmldesc">[5]</a>, CSS<a href="#cssdesc">[6]</a>, JavaScript<a href="#JSdesc">[7]</a>. We are refraining from using any other frameworks and libraries for this project as we want to use our own knowledge of physics to complete this project.
