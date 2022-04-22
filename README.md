@@ -6,8 +6,11 @@ We use standard web development tools for this project - HTML<a href="#htmldesc"
 <br><br>
 Images and Assets used:<br>
 <img src="https://www.freeiconspng.com/thumbs/restart-icon/black-panel-restart-system-icon--6.png">Restart System Icon</img>
-<a href="https://www.freeiconspng.com/thumbs/restart-icon/black-panel-restart-system-icon--6.png">Restart System Icon</a><a href="https://www.freeiconspng.com/thumbs/restart-icon/black-panel-restart-system-icon--6.png"><br>Restart System Icon</a> from https://freeiconspng.com
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a href="https://www.freeiconspng.com/thumbs/restart-icon/black-panel-restart-system-icon--6.png">Restart System Icon</a><a href="https://www.freeiconspng.com/thumbs/restart-icon/black-panel-restart-system-icon--6.png">Restart System Icon</a> from https://freeiconspng.com
+<br><br>
+Formal Proposal:<br>
+<a href="https://docs.google.com/document/d/12lKEzLZoMFjt7WWVekGpWlB8mJ8_ftt_MfITrLblWQI/edit?usp=sharing">Term Project Proposal</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 <ul id="termprojectdesc">1. The term project for our school <a href="https://basisindependent.com/">Basis Independent Fremont</a></ul>
