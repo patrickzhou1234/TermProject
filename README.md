@@ -10,7 +10,7 @@ Images and Assets used:<br>
 <br><br>
 Formal Proposal:<br>
 <a href="https://docs.google.com/document/d/12lKEzLZoMFjt7WWVekGpWlB8mJ8_ftt_MfITrLblWQI/edit?usp=sharing">Term Project Proposal</a>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 <ul id="termprojectdesc">1. The term project for our school <a href="https://basisindependent.com/">Basis Independent Fremont</a></ul>
