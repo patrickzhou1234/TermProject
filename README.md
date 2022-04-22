@@ -14,7 +14,7 @@ Formal Proposal:<br>
 <br><br>
 Technologies used:<br>
 <a href="https://code.visualstudio.com">Visual Studio Code</a> - for development.<br>
-<a href="https://replit.com">Replit</a> - for hosting.<br>
+<a href="https://replit.com">Replit</a><a href="#replitdesc">[2]</a> - for hosting.<br>
 <a href="https://github.com">Github</a> - for open sourcing and storing code. <br>
 <a href="https://discord.com">Discord</a> - for team communications. <br>
 <a href="https://docs.google.com">Google Docs</a> - for writing our team proposal. <br>
@@ -24,6 +24,16 @@ Demo Website:<br>
 <a href="https://termproject.pzrepl.repl.co"></a>
 <br><br>
 Table of Contents:<br>
+Gravitational attraction simulator
+Pulley Simulator
+Friction blocks
+Collision of two cars
+Roller Coaster
+Springs
+Rocket simulator
+Bulldozer
+Airplane flight
+Optics
 <br><br><br><br><br><br><br><br>
 
 
@@ -34,3 +44,5 @@ Table of Contents:<br>
 <ul id="htmldesc">5. HyperText Markup Language is code that would structure the website and is generally considered the skeleton of the website. </ul>
 <ul id="cssdesc">6. Cascading Style Sheets is code that would style those elements in the HTML<a href="#htmldesc">[5]</a>. </ul>
 <ul id="JSdesc">7. The logic behind websites. This is what manipulates the webpage upon user interaction. </ul>
+<ul id="vsdesc">8. An electron app ide that is a top pick for web developers. Brought to us by Microsoft. </ul>
+<ul id="ghdesc">9. A code </ul>
