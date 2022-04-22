@@ -13,9 +13,9 @@ Formal Proposal:<br>
 <a href="https://docs.google.com/document/d/12lKEzLZoMFjt7WWVekGpWlB8mJ8_ftt_MfITrLblWQI/edit?usp=sharing">Term Project Proposal</a>
 <br><br>
 Technologies used:<br>
-<a href="https://code.visualstudio.com">Visual Studio Code</a> - for development.<br>
+<a href="https://code.visualstudio.com">Visual Studio Code</a><a href="#vsdesc">[8]</a> - for development.<br>
 <a href="https://replit.com">Replit</a><a href="#replitdesc">[2]</a> - for hosting.<br>
-<a href="https://github.com">Github</a> - for open sourcing and storing code. <br>
+<a href="https://github.com">Github</a><a href="#ghdesc">[9]</a> - for open sourcing and storing code. <br>
 <a href="https://discord.com">Discord</a> - for team communications. <br>
 <a href="https://docs.google.com">Google Docs</a> - for writing our team proposal. <br>
 
@@ -45,4 +45,4 @@ Optics
 <ul id="cssdesc">6. Cascading Style Sheets is code that would style those elements in the HTML<a href="#htmldesc">[5]</a>. </ul>
 <ul id="JSdesc">7. The logic behind websites. This is what manipulates the webpage upon user interaction. </ul>
 <ul id="vsdesc">8. An electron app ide that is a top pick for web developers. Brought to us by Microsoft. </ul>
-<ul id="ghdesc">9. A code </ul>
+<ul id="ghdesc">9. A code storing platform that allows developers to open source their projects. </ul>
