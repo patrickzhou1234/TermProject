@@ -101,7 +101,7 @@ function menurev() {
     menureveal.innerHTML = "⇩";
     menureveal.style.top = "0px";
     menuselections.style.top = "-13vh";
-  } 
+  }
   else {
     menureveal.innerHTML = "⇧";
     menureveal.style.top = "13vh";
