@@ -1,40 +1,30 @@
-*<div align="center">For our physics enthusiasts: Physics Simulations</div>*
-<br>
-Introduction: <br>
-This is our term project<a href="#termprojectdesc">[1]</a> repository. This is our open source code for our build which is hosted at <a href="https://replit.com">Replit</a><a href="#replitdesc">[2]</a>. This term project is a group effort and my group members consists of Brandon Wang, Akash Singh, Aditya Arunachalam and Patrick Zhou (myself). The purpose of our project is to combine our knowledge in both computer science and physics to turn theoretical physics<a href="#theoreticaldesc">[3]</a> to a realistic simulation<a href="#simdesc">[4]</a>. 
-<br><br>
-Libraries and tools used:<br>
-We use standard web development tools for this project - HTML<a href="#htmldesc">[5]</a>, CSS<a href="#cssdesc">[6]</a>, JavaScript<a href="#JSdesc">[7]</a>. We are refraining from using any other frameworks and libraries for this project as we want to use our own knowledge of physics to complete this project.
-<br><br>
-Images and Assets used:<br>
-<a href="https://www.freeiconspng.com/thumbs/restart-icon/black-panel-restart-system-icon--6.png">Restart System Icon</a> from https://freeiconspng.com
-<br><br>
-Formal Proposal:<br>
-<a href="https://docs.google.com/document/d/12lKEzLZoMFjt7WWVekGpWlB8mJ8_ftt_MfITrLblWQI/edit?usp=sharing">Term Project Proposal</a>
-<br><br>
-Technologies used:<br>
-<a href="https://code.visualstudio.com">Visual Studio Code</a><a href="#vsdesc">[8]</a> - for development.<br>
-<a href="https://replit.com">Replit</a><a href="#replitdesc">[2]</a> - for hosting.<br>
-<a href="https://github.com">Github</a><a href="#ghdesc">[9]</a> - for open sourcing and storing code. <br>
-<a href="https://discord.com">Discord</a> - for team communications. <br>
-<a href="https://docs.google.com">Google Docs</a> - for writing our team proposal. <br>
+Dedicated to all the physics enthusiasts around the world:  
 
-<br><br>
-Demo Website:<br>
-<a href="https://termproject.pzrepl.repl.co">Term Project</a>
-<br><br>
-Table of Contents:<br>
-Gravitational attraction simulator<br>
-Pulley Simulator<br>
-Friction blocks<br>
-Collision of two cars<br>
-Roller Coaster<br>
-Springs<br>
-Rocket simulator<br>
-Bulldozer<br>
-Airplane flight<br>
-Optics<br>
-<br><br><br><br><br><br><br><br>
+Physics Virtual Lab Simulations 
+
+
+About this project:
+This is our 8th grade term project[1] repository. We have decided to open our source code for the benefit of our academic community. The simulation website is hosted on Replit[2]. The term project is a group effort with dedicated members including Brandon Wang, Akash Singh, Aditya Arunachalam and Patrick Zhou. The purpose of our project is to integrate our knowledge in both computer science and physics to turn theoretical science[3] into repeatable virtual laboratory simulations[4]. The impact we are hoping to see is that physics students from all corners of the world can use these tools that we have built to perform lab experiments even without the necessary financial means to do so.
+
+Libraries and tools used:
+We used only standard web development tools for this project - HTML[5], CSS[6], JavaScript[7]. We refrained from using any other frameworks and libraries for this project because we want to challenge ourselves by forcing the team to develop codes and physics calculation formulas from absolute scratch.
+
+ 
+
+Images and Assets used:
+Restart System Icon from https://freeiconspng.com
+
+Technologies used:
+Visual Studio Code[8] - for code development.
+Replit[2] - for website hosting.
+Github[9] - for open sourcing and storing codes.
+Discord - for team communications.
+Google Docs - for writing our term project papers. 
+
+ 
+
+Formal Proposal:
+Term Project Proposal 
 
 
 <ul id="termprojectdesc">1. The term project for our school <a href="https://basisindependent.com/">Basis Independent Fremont</a></ul>
