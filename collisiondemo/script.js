@@ -42,9 +42,12 @@ function addBall(){
   Y.push(player.offsetTop+player.offsetHeight/2+Math.sin(angle)*turret.offsetWidth-ball.offsetHeight/2);
   MASS.push(mass.value);
   ALREADYCOLLIDED.push([]);
+  for (i = 0; i < ALREADYCOLLIDED.length-1; i++){
+    ALREADYCOLLIDED[i].push(false);
+  }
 }
 
-window.onclick = function(event) {
+window.onclick = function() {
   addBall();
 }
 
@@ -66,9 +69,7 @@ function update() {
       ball1 = balls[i];
       ball2 = balls[j];
       if (ball1.offsetLeft < ball2.offsetLeft+ball2.offsetWidth && ball1.offsetLeft+ball1.offsetWidth > ball2.offsetLeft && ball1.offsetTop < ball2.offsetTop+ball2.offsetHeight && ball1.offsetTop + ball1.offsetHeight > ball2.offsetTop){
-        if ((ball1.offsetLeft < ball2.offsetLeft && VELX[i] < 0 && VELX[j] > 0 || ball1.offsetLeft > ball2.offsetLeft && VELX[i] > 0 && VELX[j] < 0 || ball1.offsetTop < ball2.offsetTop && VELY[i] < 0 && VELY[j] > 0 || ball1.offsetTop > ball2.offsetTop && VELY[i] > 0 && VELY[j] < 0) || ((ball1.offsetLeft < ball2.offsetLeft && VELX[i] < VELX[j]) || (ball1.offsetLeft > ball2.offsetLeft && VELX[i] > VELX[j]) || (ball1.offsetTop < ball2.offsetTop && VELY[i] < VELY[j]))){
-
-          /* add already  collided */
+        if ((ball1.offsetLeft < ball2.offsetLeft && VELX[i] < 0 && VELX[j] > 0 || ball1.offsetLeft > ball2.offsetLeft && VELX[i] > 0 && VELX[j] < 0 || ball1.offsetTop < ball2.offsetTop && VELY[i] < 0 && VELY[j] > 0 || ball1.offsetTop > ball2.offsetTop && VELY[i] > 0 && VELY[j] < 0) || ((ball1.offsetLeft < ball2.offsetLeft && VELX[i] < VELX[j]) || (ball1.offsetLeft > ball2.offsetLeft && VELX[i] > VELX[j]) || (ball1.offsetTop < ball2.offsetTop && VELY[i] < VELY[j])) && ALREADYCOLLIDED[i][balls.length-j]){
           continue;
         }
         else{
@@ -78,8 +79,7 @@ function update() {
           v1y = VELY[i];
           v2x = VELX[j];
           v2y = VELY[j];
-          /*((1+1)*5)/(5+5)*5*/
-          b = elastcnst.value/10;
+          b = elastcnst.value/100;
           VELX[i] = (((m-b*n)/(m+n))*v1x)+((((1+b)*n)/(m+n))*v2x);
           VELX[j] = ((((1+b)*m)/(m+n))*v1x)+((((n-b*m))/(n+m))*v2x);
           VELY[i] = ((((m-b*n))/(m+n))*v1y)+((((1+b)*n)/(m+n))*v2y);
@@ -87,7 +87,11 @@ function update() {
           console.log("these balls collided");
           console.log(VELX[i]);
           console.log(VELX[j]);
+          ALREADYCOLLIDED[i][balls.length-j] = true;
         }
+      }
+      else{
+        ALREADYCOLLIDED[i][balls.length-j] = false;
       }
     }
   }
@@ -135,4 +139,15 @@ function menurev() {
     menuselections.style.top = "0vh";
     title.style.top = "0vh";
   }
+}
+
+function restart() {
+  for (i=0;i<balls.length;i++) {
+    balls[i].remove();
+  }
+  balls = [];
+  VELX = [];
+  VELY = [];
+  MASS = [];
+  ALREADYCOLLIDED = [];
 }
