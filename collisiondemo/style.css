@@ -1,0 +1,137 @@
+html {
+  overflow: hidden;
+  background-color: 	#0096FF;
+  cursor: crosshair;
+}
+
+p {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+}
+
+label {
+  color: white;
+  font-size: calc(2vw + 2vh);
+}
+#menuselections {
+  position: absolute;
+  z-index: 1000;
+  left:0px;
+  top:0px;
+  width: 100vw;
+  height: 24vh;
+  background-color: #1D2333;
+  transition: top 0.2s;
+}
+
+#menureveal {
+  position: absolute;
+  left:46vw;
+  top:24vh;
+  width: 8vw;
+  height: 6vh;
+  z-index: 100;
+  font-size: calc(1.5vw + 1.5vh);
+  background-color: rgb(52, 61, 85);
+  color: white;
+  border: none;
+  transition: color 0.2s, background-color 0.2s, top 0.2s;
+}
+
+#menureveal:hover {
+  cursor: pointer;
+  background-color: rgb(54, 66, 99);
+}
+
+#menureveal:active {
+  background-color: rgb(57, 70, 104);
+}
+
+#menureveal:focus {
+  outline: none;
+}
+
+
+
+#restarticon {
+  width: 4vmin;
+  height: 4vmin;
+}
+
+#restartbtn {
+  top: 5vh;
+  position: absolute;
+  left: 80vw;
+  font-size: calc(1.5vw + 1.5vh);
+  color: white;
+  background-color: orange;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+#restartbtn:hover {
+  background-color: #ff8c00;
+  cursor: pointer;
+}
+
+#restartbtn:active {
+  background-color: #FF5349;
+}
+
+#player {
+  position: absolute;
+  width: 10vmin;
+  height: 10vmin;
+  left: calc(50vw - 5vmin);
+  top: calc(55vh - 5vmin);
+  border-radius: 50%;
+  background-color: orange;
+  z-index: 1000;
+}
+
+#bullet {
+  position: absolute;
+  width: 2vmin;
+  height: 2vmin;
+  border-radius: 50%;
+  background-color: black;
+  left: calc(50vw - 1vmin);
+  top: calc(50vh - 1vmin);
+}
+
+#turret {
+  position: absolute;
+  left: 50vw;
+  top: 54vh;
+  width: 10vw;
+  height: 2vh;
+  background-color: green;
+  transform-origin: left;
+}
+
+
+#elasticitydisp {
+  font-size: calc(2vw + 2vh);
+  color: white;
+}
+
+#massdisp {
+  font-size: calc(2vw + 2vh);
+  color: white;
+}
+#initialvelodisp {
+  font-size: calc(2vw + 2vh);
+  color: white;
+}
+
+#title {
+  position: relative;
+  font-size: calc(2vw + 2vh);
+  text-align: center;
+  color: red;
+  margin-top: 32vh;
+}
