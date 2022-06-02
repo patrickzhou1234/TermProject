@@ -1,0 +1,164 @@
+html {
+  overflow: hidden;
+  background-color: 	lightblue;
+}
+
+#menuselections {
+  position: absolute;
+  z-index: 1000;
+  left:0px;
+  top:0px;
+  width: 100vw;
+  height: 24vh;
+  background-color: #1D2333;
+  transition: top 0.2s;
+}
+#normalline{
+border: 3px solid black;
+  position: absolute;
+  left: 45vw;
+  top: 70.65vh ;
+  width: 10vw;
+  
+}
+#mirror {
+  border: 3px solid black;
+  position: absolute;
+  left: 0px;
+  width: 100vw;
+  top: 40vh;
+}
+#mediumchange{
+  border: 3px solid black;
+  position: absolute;
+  height: 60vh;
+  top:40vh;
+  left: 50vw;
+}
+#menureveal {
+  position: absolute;
+  left:46vw;
+  top:24vh;
+  width: 8vw;
+  height: 6vh;
+  z-index: 100;
+  font-size: calc(1.5vw + 1.5vh);
+  background-color: rgb(52, 61, 85);
+  color: white;
+  border: none;
+  transition: color 0.2s, background-color 0.2s, top 0.2s;
+}
+
+#menureveal:hover {
+  cursor: pointer;
+  background-color: rgb(54, 66, 99);
+}
+
+#menureveal:active {
+  background-color: rgb(57, 70, 104);
+}
+
+#menureveal:focus {
+  outline: none;
+}
+
+label {
+  color: white;
+  font-size: calc(2vw + 2vh);
+}
+
+#index2disp {
+  font-size: calc(2vw + 2vh);
+  color: white;
+}
+
+#index1disp {
+  font-size: calc(2vw + 2vh);
+  color: white;
+}
+
+#title {
+  position: relative;
+  font-size: calc(2vw + 2vh);
+  text-align: center;
+  color: red;
+  margin-top: 22vh;
+}
+
+#restarticon {
+  width: 4vmin;
+  height: 4vmin;
+}
+
+#restartbtn {
+  top: 0px;
+  position: absolute;
+  left: 80vw;
+  font-size: calc(1.5vw + 1.5vh);
+  color: white;
+  background-color: orange;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+#restartbtn:hover {
+  background-color: #ff8c00;
+  cursor: pointer;
+}
+
+#restartbtn:active {
+  background-color: #FF5349;
+}
+
+#restartbtn:focus {
+  outline: none;
+}
+
+#beam {
+  position: absolute;
+  width: 10vmin;
+  height: 10vmin;
+  left: 30vmin;
+  top: 66vh;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+  cursor: move;
+  transform: rotate(180deg);
+ transform-origin:left;
+}
+
+#rotatedisp {
+  font-size: calc(2vw + 2vh);
+  color: white;
+}
+
+#rotlab {
+  font-size: calc(2vw + 1.5vh) !important;
+}
+
+#ray {
+  height: calc(50vw - 30vmin);
+  position: absolute;
+  border: 3px solid red;
+  left: 40vw;
+  transform-origin: top;
+}
+
+#ray2 {
+  position: absolute;
+  border: 3px solid yellow;
+  transform-origin: top;
+  height: 50vw;
+  left: 50vw;
+  top: 75vh;
+  transform: rotate(270deg);
+}
+
+.subtitle {
+  position: relative;
+  top: 40vh;
+}
