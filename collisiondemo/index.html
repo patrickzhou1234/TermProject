@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Collision</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="jquery-3.2.1.js"></script>
+</head>
+
+<body>
+  
+  <div id="menuselections">
+      <label for="elasticity">Elasticity of Collisions</label>
+      <input name="elasticity" onmouseup="displayelasticity()" type="range" value="100" min="0" max="100" step="0.1" id="elasticityconst">
+      <span id="elasticitydisp">100</span>
+      <br>
+      <label for="mass">Mass</label>
+      <input name="mass" onmouseup="displaymass()" type="range" value="5" min="1" max="10" step="0.01" id="mass">
+      <span id="massdisp">5</span>
+      <br>
+      <label for="intialvelocity">Initial Velocity</label>
+      <input name="mass" onmouseup="dispinitialvelo()" type="range" value="5" min="1" max="10" step="0.01" id="initialveloconst">
+      <span id="initialvelodisp">5</span>
+      <br>
+  <button onclick="restart()" id="restartbtn">Restart <img id="restarticon" src="https://rb.gy/liwf1o"></img></button>
+  </div>
+  <button onclick="menurev()" id="menureveal">⇧</button>
+  <div id="balls"></div>
+  <div id="turret"></div>
+  <div id="player"></div>
+  <script src="script.js"></script>
+  <p id="title">Collision Simulation</p>
+  <br>
+  <script src="script.js"></script>
+</body>
+</html>
+</body>
+
+</html>
