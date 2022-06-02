@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>Optics Simulation</title>
+</head>
+<body>
+    <div id="menuselections">
+      <label for="index1">Index of refraction for first medium</label>
+      <input name="index1" onmouseup="display1()" type="range" value="1" min="1" max="10" step="0.0001" id="index1cnst">
+      <span id="index1disp">1</span>
+      <br>
+      <label for="index2cnst">Index of refraction for second medium</label>
+      <input name="index2" onmouseup="display2()" type="range" value="5" min="1" max="10" step="0.001" id="index2cnst">
+      <span id="index2disp">5</span>
+      <br>
+      <label id="rotlab" for="rotateinp">Angle of Incidence</label>
+      <input name="rotateinp" oninput="rotdisp()" type="range" value="0" min="-90" max="90" step="0.001" id="rotateinp">
+      <span id="rotatedisp">0</span>
+      <button onclick="restart()" id="restartbtn">Restart <img id="restarticon" src="https://rb.gy/liwf1o"></img></button>
+    </div>
+    <button onclick="menurev()" id="menureveal">⇧</button>
+  
+    <span class="subtitle">Incident ray = Red</span><br>
+    <span class="subtitle">Reflected ray = Blue</span><br>
+    <span class="subtitle">Refracted ray = Yellow</span>
+  
+    <p id="title">Optics Simulation</p>
+    <br>
+    <vl id="mirror"></vl>
+    <vl id="mediumchange"></vl>
+  <vl id="normalline"></vl>
+    <img id="beam" src="https://rb.gy/fy0ea4">
+   <vl id="ray"></vl>
+    <vl id="ray2"></vl>
+    <script src="script.js"></script>
+</body>
+</html>
